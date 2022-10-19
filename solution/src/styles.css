@@ -46,3 +46,27 @@ body,
     width: 100px;
     border-radius: 50%;
   }
+
+
+
+  #thumbs { padding-top: 10px; overflow: hidden; }
+#thumbs img, #largeImage {
+    border: 1px solid gray;
+    padding: 4px;
+    background-color: white;
+    cursor: pointer;
+}
+#thumbs img {
+    float: left;
+    margin-right: 6px;
+}
+#description {
+    background: black;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    padding: 10px 20px;
+    width: 200px;
+    margin: 5px;
+}
+#panel { position: relative; }
